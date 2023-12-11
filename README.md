@@ -42,7 +42,7 @@ Please download the following zip files from the above link:
 After extracting the above zip files, the codebase should have the following directory structure before execution:  
 ![Alt text](images/image.png)  
 
-## Note: The folder IRMAS-TestingData-Part3/ has a nested folder called IRMAS-TestingData-Part3/Part3/. Please move all the contents inside IRMAS-TestingData-Part3/Part3 into IRMAS-TestingData-Part3/ directory. This is necessary for the data preprocessing stage.
+## Note: The directory IRMAS-TestingData-Part2/ has a nested folder called IRMAS-TestingData-Part2/IRTestingData-Part2/. Please rename the directory IRMAS-TestingData-Part2/**IRTestingData-Part2**/  to IRMAS-TestingData-Part2/**Part2**. This is necessary for the data preprocessing stage.
 
 Please ensure the system requirements are satisfied and execute the notebooks in the following order:
 1. preprocessing.ipynb
