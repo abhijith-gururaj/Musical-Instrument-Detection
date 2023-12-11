@@ -46,10 +46,12 @@ After extracting the above zip files, the codebase should have the following dir
 ## Note: if you have any trouble in creating the data files due to kernel crash, please restart jupyter and the python kernel.
 ## If you have any trouble with downloading the IRMAS dataset, We have already pushed the necessary test data files required for training the model
 X_train.npy, y_train.npy, X_val.npy, y_val.npy, X_test.pkl and y_test.pkl.
-If you want to avoid downloading the dataset, please ensure the above *.npy and *.pkl files are present and proceed with executing the second notebook (train_model.ipynb)
+If you want to avoid downloading the dataset, please ensure the above *.npy and *.pkl files are present and proceed with executing the second notebook (train_model.ipynb).  
+
 If you do not wish to download the IRMAS dataset and still do not see *.npy and *.pkl data files, then probably git-lfs is not enabled. You can try one these two options:
 1. install git-lfs in your system and then clone this repository OR
 2. Manually browse to each datafile in this github repository and download the raw file over HTTP.
+Once these files are either cloned/downloaded, you can proceed with executing the second notebook. (train_model.ipynb)
 
 Please ensure the system requirements are satisfied and execute the notebooks in the following order:
 1. preprocessing.ipynb
